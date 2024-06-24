@@ -1,0 +1,68 @@
+<html> 
+<head>
+    <title>Registrazione</title> 
+    <link rel="stylesheet" href="css/paginaRegistrazione.css"> 
+</head>
+
+    <body> 
+        <div class="form">
+        <div id="intestazione">
+        <p class="centro"><h2 id="titolo" class="fontFamily">Inserisci i tuoi dati per completare la registrazione</h2></p><br> 
+        <p id="info" class="fontFamily">ATTENZIONE! i campi contrassegnati da asterisco saranno obbligatori</p>
+         
+        </div>
+        <div id="corpo"> 
+            <fieldset class="dati fontFamily">
+                <legend>Dati personali</legend> 
+                <form action="" method="post" name="datiPersonali"> 
+                    <label for="nome">Nome*:</label>
+                    <input type="text" 
+                    name="nome" 
+                    required 
+                    placeholder="inserisci il tuo nome"><br><br> 
+                 
+                    <label for="cognome">Cognome*:</label>
+                    <input type="text" 
+                    name="cognome" 
+                    required 
+                    placeholder="inserisci il tuo cognome"><br><br> 
+
+                    <label for="data">Data di nascita</label>
+                    <input
+                    type="date"
+                    name="data"
+                    rquired
+                    placeholder="inserisci la tua data di nascita"><br><br> 
+        
+
+                    <label for="indirizzo">Indirizzo:</label>
+                    <input type="text" 
+                    name="indirizzo" 
+                    placeholder="inserisci il tuo indirizzo"><br><br>
+                </form>
+            </fieldset>
+                      
+            <fieldset class="dati fontFamily">
+                <legend>Dati login</legend> 
+                <form action="" method="post" name="datiLogin"> 
+                    <label for="nomeUtente">*Nome utente:</label>
+                    <input type="text" 
+                    name="nomeUtente" 
+                    required 
+                    placeholder="scegli nome utente (minimo 5 caratteri)"><br><br> 
+                 
+                    <label for="password">*Password:</label>
+                    <input type="password" 
+                    name="password" 
+                    required 
+                    placeholder="scegli una password"><br><br> 
+                </form>
+            </fieldset>
+                
+        
+    
+    </div>
+        </div>
+</body> 
+
+</html>

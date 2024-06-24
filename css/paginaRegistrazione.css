@@ -1,0 +1,53 @@
+  
+
+body{
+    background-image: url(../img/backgroundImage.jpg);
+}
+
+#titolo{
+    font-size: medium; 
+    font-style: normal; 
+    
+           
+}       
+
+.fontFamily{
+    font-family:Arial, Helvetica, sans-serif;
+} 
+
+.info{
+    font-size:smaller; 
+    font-style: italic;
+   
+} 
+
+
+
+
+p{
+    text-align: center;  
+}   
+
+.form{ 
+    position: relative;  
+    left: 50%; 
+}
+
+#intestazione{
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+
+
+}  
+
+#corpo{
+    position: relative;
+    left: 50%; 
+} 
+
+fieldset{
+    width: 200px; 
+    
+}
+

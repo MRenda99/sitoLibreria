@@ -1,0 +1,118 @@
+<html> 
+<head>
+    <title> Checkout </title> 
+    <link rel="stylesheet" href="css/checkout.css" >
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="css/smartphone.css"/>
+</head>
+    <body>  
+        <div>
+        <div class="navbar">
+            <a href="#">Shop</a>
+            <a href="#">Community</a>
+            <a href="#">Contatti</a>
+            <a href="#">Negozi</a>
+            <a href="#">Eventi</a>
+            <a href="#">Nuovi Arrivi</a>
+          </div> 
+          </div>
+        <br> 
+       
+   
+        <div class="compilazione">
+        <div class="contenitoresx">
+        <div class="intro"><p><h2>Ci siamo quasi!</h2><br> 
+        Inserisci i dati di fattuazione, attenzione agli asterischi, indicano un campo obbligatorio.<p></div>
+        </div> 
+    <div class="contenitoredx">       
+<fieldset class="field1">
+    <legend>Dati fatturazione</legend> 
+   <div class="floatIndirizzo"> <form action="" method="post" name="datiFatturazione" >  
+          
+
+        <label for="comune">Comune di residenza*</label><br>
+        <input type="text" 
+        name="comune" 
+        required 
+        placeholder="inserisci comune di residenza"><br><br>   
+
+        <label for="cap">Cap*:</label><br>
+        <input type="text" 
+        name="cap" 
+        required 
+        placeholder="inserisci il codice postale del comune di residenza"><br><br>
+
+        <label for="provincia">Provincia di residenza*</label><br>
+        <input type="text" 
+        name="provincia" 
+        required 
+        placeholder="inserisci la provincia"><br><br> 
+    </div> 
+      
+    <div class="floatContatti">
+
+    
+        <label for="telefono">Telefono*</label><br>  
+        <input type="text" 
+        name="telefono"  
+        required 
+        placeholder="inserisci numero di  telefono"><br><br> 
+
+
+        <label for="email">Email</label><br>
+        <input type="text" 
+        name="email"  
+        placeholder="inserisci la mail"><br><br> 
+    </div>
+    <div class="infoAgg">
+        <label for="infoagg">Informazioni aggiuntive</label> <br>
+        <textarea name="info" maxlength="100"></textarea> 
+    </div>
+        
+    </form>
+</fieldset> 
+<br><br> 
+
+<fieldset class="field2">
+    <legend>Dati pagamento</legend> 
+    <form action="" method="post" name="datiPagamento">  
+
+        <label for="circuito">Circuito pagamento*</label><br>
+        <select id="circuito" name="circuito">
+        <option value="1">Mastercard</option>
+        <option value="2">Visa</option>
+        <option value="3">Maestro</option>
+        </select> <br><br> 
+
+        <label for="nomeCognome">Nome intestatario*</label><br>
+        <input type="text" 
+        name="nome"  
+        placeholder="Nome e Cognome"><br><br>  
+
+       <label for="carta">Num carta*</label><br>
+        <input type="number" 
+        name="carta"  
+        placeholder="inserisci numero carta"><br><br> 
+
+        <label for="dataScad">Data di scadenza*</label><br>
+        <input type="date" 
+        name="dataScad"  
+        placeholder="inserisci la mail"><br><br> 
+
+        <label for="CVV">CVV*</label><br> 
+        <input type="number" 
+        name="CVV"   
+        placeholder="CVV"><br><br>  
+
+    </div>
+</form>
+</fieldset>  </div>
+</div>
+<div class="submit">
+    <input type="submit" value="Acquista">
+    </div> 
+
+
+
+ 
+    </body> 
+</html>

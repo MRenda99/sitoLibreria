@@ -1,0 +1,111 @@
+body {
+    background-image: url(../img/backgroundImage.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    align-content: center;
+}
+
+
+.navbar {
+    background-image: url("../img/navbar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: coral;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column !important;
+        background-image: url("../img/navbar.jpg");
+        background-size: cover;
+        background-repeat: repeat
+    }
+}
+
+
+
+fieldset {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.field1 {
+    justify-content: space-around;
+    /*perchè non me lo prende?*/
+}
+
+/*.field2{ 
+   
+}*/
+
+/*.contenitore{ 
+    display: flex; 
+    justify-content: center; 
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+} 
+*/
+
+.contenitoresx {
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex: 15%;
+}
+
+.contenitoredx {
+
+    display: flex;
+    flex: 85%;
+
+}
+
+/*.compilazione{ 
+    display: flex; 
+    width: 100%;
+    justify-content: center; 
+    align-content:center ;
+}*/
+
+textarea {
+    width: fit-content;
+}
+
+.submit {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    left: 50%;
+}
